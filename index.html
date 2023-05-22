@@ -39,10 +39,7 @@
         .logo{
             font-size: 25px;
         }
-        * {
-            background-color: rgb(213, 218, 222);
-        }
-
+    
         .aboutme {
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bolder;
@@ -62,12 +59,21 @@
             padding-left: 5%;
             padding-top: 17%;
         }
+        .me {
+            display: inline-block;
+            border: 1px;
+            justify-content: right;
+            padding-left: 15%;
+        }
+        body {
+            background-image: url("media/bg.jpg");
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="media/logo.png" alt="logo" style="width:160px;height:60px;">
+            <img src="media/logo.png" alt="logo" style="width:160px; height:60px;">
         </div>
     </header>
         <div class="nav">
@@ -82,12 +88,15 @@
         <div class="wrapper">
             <div class="icons">
                 <a style="font-size: 40px; padding-top: 17%; padding-left: 5%;" href="#" class="fa-brands fa-linkedin fa-bounce"></a><br><br>
-                <a style="font-size: 40px; padding-top: 2%; padding-left: 5%;" href="#" class="fa-brands fa-square-instagram fa-bounce" style="color:#e73c08;"></a><br><br>
-                <a style="font-size: 40px; padding-top: 2%; padding-left: 5%;" href="#" class="fa-brands fa-github fa-bounce"></a><br><br>
-                <a style="font-size: 40px; padding-top: 2%; padding-left: 5%;" href="#" class="fa-brands fa-whatsapp fa-bounce"></a>
+                <a style="font-size: 40px; padding-top: 2%; padding-left: 5%;" href="https://instagram.com/needmorecheddar?igshid=NTc4MTIwNjQ2YQ==" class="fa-brands fa-square-instagram fa-bounce" style="color:#e73c08;"></a><br><br>
+                <a style="font-size: 40px; padding-top: 2%; padding-left: 5%;" href="https://github.com/olawale021" class="fa-brands fa-square-github fa-bounce"></a><br><br>
+                <a style="font-size: 40px; padding-top: 2%; padding-left: 5%;" href="https://wa.me/254113541324" class="fa-brands fa-square-whatsapp fa-bounce" style="color: lightgreen;"></a>
             </div>
             <div class="aboutme">
                 <p>I'm Olawale,<br><br><br> A full stack web developer <br>I'm based in Lagos, Nigeria<br> Olawale Filani It's ME Olawale<br> Filani</p>
+            </div>
+            <div class="me">
+                <img src="media/me.png" alt="imgg" style="width: 300px; height: 250px;">
             </div>
         </div>
 </body>
